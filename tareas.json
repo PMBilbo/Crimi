@@ -1,0 +1,28 @@
+{
+    "tareas": [
+      {
+        "referencia": "12.345-23",
+        "fecha_incidencia": "2023-03-05",
+        "fecha_creacion": "2023-03-05",
+        "fecha_modificacion": "2023-03-05",
+        "descripción": "RV en ascensor de Artazubehekoa",
+        "delitos": "Contra el patrimonio - Robo con violencia; Lesiones",
+        "ubicación": "Artazubehekoa s/n",
+        "cronología": [
+          {
+            "fecha": "2023-03-05",
+            "contenido": "Se recoge denuncia."
+          },
+          {
+            "fecha": "2023-03-06",
+            "contenido": "Se solicitan imágenes."
+          }
+        ],
+        "Resultado": "Pendiente visionado de las imágenes.",
+        "importancia": "4",
+        "gestionado": "1",
+        "finalizado": "1"
+      }
+    ]
+  }
+  

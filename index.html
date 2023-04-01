@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=»es»>
+    <head>
+        <title> App de Tareas </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-3.6.4.min.js"></script>
+        <script src="tareas.js"></script>
+    </head>
+
+    <body>
+        <h1>
+            Tareas pendientes
+        </h1>
+        <div class="listado">
+            <h2>
+                Listado
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Referencia
+                        </th>
+                        <th>
+                            Fecha
+                        </th>
+                        <th>
+                            Última Modificación
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+                        <th>
+                            Ubicación
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <form class="formulario">
+            <p>
+                <label>Referencia:</label>
+                <input type="text" name="referencia" required>
+            </p>
+            <p>
+                <label>Fecha:</label>
+                <input type="text" name="fecha_incidencia"><input type="text" name="fecha_creacion"><input type="text" name="fecha_modificacion">
+            </p>
+            <p>
+                <label>Descripción:</label>
+                <input type="email" name="Descripción" required>
+            </p>
+            <p>
+                <label>Delitos:</label>
+                <input type="text" name="delitos" required>
+            </p>
+            <p class="full">
+                <label>Resultado:</label>
+                <textarea name="mensaje" required></textarea>
+            </p>
+            <p class="full">
+                <button class="boton-enviar">Enviar</button>
+            </p>
+        </form>
+    </body>
+</html>

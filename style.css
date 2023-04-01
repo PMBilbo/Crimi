@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --fuente-principal: 'Roboto', sans-serif;
+    --color-principal: #455a64;
+    --bk1: 700px;
+}
+
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fuente-principa);
+    color: var(--color-principal);
+    line-height: 1.5;
+}
